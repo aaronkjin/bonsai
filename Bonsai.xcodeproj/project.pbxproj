@@ -14,6 +14,16 @@
 		EB7A54762A9747A40036A01A /* BonsaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A54752A9747A40036A01A /* BonsaiTests.swift */; };
 		EB7A54802A9747A40036A01A /* BonsaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A547F2A9747A40036A01A /* BonsaiUITests.swift */; };
 		EB7A54822A9747A40036A01A /* BonsaiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A54812A9747A40036A01A /* BonsaiUITestsLaunchTests.swift */; };
+		EB7A548F2A9748C40036A01A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A548E2A9748C40036A01A /* Extensions.swift */; };
+		EB7A54F82A9FFDFF0036A01A /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A54F72A9FFDFF0036A01A /* TransactionModel.swift */; };
+		EB7A54FA2A9FFF0C0036A01A /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A54F92A9FFF0C0036A01A /* PreviewData.swift */; };
+		EB7A54FC2A9FFFDE0036A01A /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A54FB2A9FFFDE0036A01A /* TransactionRow.swift */; };
+		EB7A54FF2AA00DE10036A01A /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = EB7A54FE2AA00DE10036A01A /* SwiftUIFontIcon */; };
+		EB7A55012AA010080036A01A /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A55002AA010080036A01A /* TransactionListViewModel.swift */; };
+		EB7A55032AA0246A0036A01A /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A55022AA0246A0036A01A /* RecentTransactionList.swift */; };
+		EB7A55052AA0793E0036A01A /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7A55042AA0793E0036A01A /* TransactionList.swift */; };
+		EB7A55082AA0872E0036A01A /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = EB7A55072AA0872E0036A01A /* Collections */; };
+		EB7A550B2AA0898D0036A01A /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = EB7A550A2AA0898D0036A01A /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,13 @@
 		EB7A547B2A9747A40036A01A /* BonsaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BonsaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7A547F2A9747A40036A01A /* BonsaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonsaiUITests.swift; sourceTree = "<group>"; };
 		EB7A54812A9747A40036A01A /* BonsaiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonsaiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EB7A548E2A9748C40036A01A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../Extensions.swift; sourceTree = "<group>"; };
+		EB7A54F72A9FFDFF0036A01A /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionModel.swift; path = ../../../TransactionModel.swift; sourceTree = "<group>"; };
+		EB7A54F92A9FFF0C0036A01A /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PreviewData.swift; path = ../../../../PreviewData.swift; sourceTree = "<group>"; };
+		EB7A54FB2A9FFFDE0036A01A /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionRow.swift; path = ../../../TransactionRow.swift; sourceTree = "<group>"; };
+		EB7A55002AA010080036A01A /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionListViewModel.swift; path = ../../../TransactionListViewModel.swift; sourceTree = "<group>"; };
+		EB7A55022AA0246A0036A01A /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecentTransactionList.swift; path = ../../../RecentTransactionList.swift; sourceTree = "<group>"; };
+		EB7A55042AA0793E0036A01A /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionList.swift; path = ../../../TransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7A550B2AA0898D0036A01A /* SwiftUICharts in Frameworks */,
+				EB7A55082AA0872E0036A01A /* Collections in Frameworks */,
+				EB7A54FF2AA00DE10036A01A /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +116,12 @@
 			children = (
 				EB7A54642A9747A20036A01A /* BonsaiApp.swift */,
 				EB7A54662A9747A20036A01A /* ContentView.swift */,
+				EB7A55022AA0246A0036A01A /* RecentTransactionList.swift */,
+				EB7A55042AA0793E0036A01A /* TransactionList.swift */,
+				EB7A54FB2A9FFFDE0036A01A /* TransactionRow.swift */,
+				EB7A55002AA010080036A01A /* TransactionListViewModel.swift */,
+				EB7A54F72A9FFDFF0036A01A /* TransactionModel.swift */,
+				EB7A548E2A9748C40036A01A /* Extensions.swift */,
 				EB7A54682A9747A30036A01A /* Assets.xcassets */,
 				EB7A546A2A9747A30036A01A /* Preview Content */,
 			);
@@ -106,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				EB7A546B2A9747A30036A01A /* Preview Assets.xcassets */,
+				EB7A54F92A9FFF0C0036A01A /* PreviewData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -143,6 +170,11 @@
 			dependencies = (
 			);
 			name = Bonsai;
+			packageProductDependencies = (
+				EB7A54FE2AA00DE10036A01A /* SwiftUIFontIcon */,
+				EB7A55072AA0872E0036A01A /* Collections */,
+				EB7A550A2AA0898D0036A01A /* SwiftUICharts */,
+			);
 			productName = Bonsai;
 			productReference = EB7A54612A9747A20036A01A /* Bonsai.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +247,11 @@
 				Base,
 			);
 			mainGroup = EB7A54582A9747A20036A01A;
+			packageReferences = (
+				EB7A54FD2AA00DE00036A01A /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				EB7A55062AA0872E0036A01A /* XCRemoteSwiftPackageReference "swift-collections" */,
+				EB7A55092AA0898D0036A01A /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = EB7A54622A9747A20036A01A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7A54FA2A9FFF0C0036A01A /* PreviewData.swift in Sources */,
+				EB7A55052AA0793E0036A01A /* TransactionList.swift in Sources */,
+				EB7A55032AA0246A0036A01A /* RecentTransactionList.swift in Sources */,
+				EB7A54F82A9FFDFF0036A01A /* TransactionModel.swift in Sources */,
 				EB7A54672A9747A20036A01A /* ContentView.swift in Sources */,
+				EB7A54FC2A9FFFDE0036A01A /* TransactionRow.swift in Sources */,
+				EB7A548F2A9748C40036A01A /* Extensions.swift in Sources */,
+				EB7A55012AA010080036A01A /* TransactionListViewModel.swift in Sources */,
 				EB7A54652A9747A20036A01A /* BonsaiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -577,6 +621,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EB7A54FD2AA00DE00036A01A /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		EB7A55062AA0872E0036A01A /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		EB7A55092AA0898D0036A01A /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EB7A54FE2AA00DE10036A01A /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7A54FD2AA00DE00036A01A /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		EB7A55072AA0872E0036A01A /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7A55062AA0872E0036A01A /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		EB7A550A2AA0898D0036A01A /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EB7A55092AA0898D0036A01A /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EB7A54592A9747A20036A01A /* Project object */;
 }

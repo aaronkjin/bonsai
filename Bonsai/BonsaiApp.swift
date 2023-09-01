@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct BonsaiApp: App {
+    // @StateObject: follows the life cycle of the app
+    @StateObject var transactionListVM = TransactionListViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(transactionListVM)
         }
     }
 }
